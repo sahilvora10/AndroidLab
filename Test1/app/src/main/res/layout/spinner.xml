@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/lay1">
+
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin1"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin2"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:text="BACK"
+        android:layout_below="@id/lay1"
+        android:onClick="backbtn"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

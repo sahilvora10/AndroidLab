@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res-auto">
+    <item android:title="Menu"
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu_black"
+        android2:showAsAction="ifRoom">
+        <menu>
+            <item android:title="CheckBox"
+                android:id="@+id/cb"
+                />
+            <item android:title="RadioButtons"
+                android:id="@+id/radio"/>
+            <item android:id="@+id/floatm"
+                android:title="Floating Menu"/>
+            <item android:id="@+id/floata"
+                android:title="FLoating Action"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Spinner"
+        android:id="@+id/Spinner" />
+    <item android:id="@+id/toggle"
+        android:title="Toggle"/>
+    <item android:id="@+id/picker"
+        android:title="Picker"/>
+
+</menu>
